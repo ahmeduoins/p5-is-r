@@ -1,0 +1,148 @@
+*{
+box-sizing: border-box;
+
+}
+
+.navbar-brand img{
+width: 100px;
+height: 80px;
+border-radius: 50%;
+}
+nav {
+font-size:large ;
+
+}
+
+.carousel-inner{
+width: 100%;
+height: 90vh;
+
+}
+.carousel-inner img{
+width: 100%;
+height: 100vh;
+}
+.kaled{
+margin: 10px auto;
+}
+.carousel-inner{
+border-radius: 6px;
+}
+main{
+
+border-radius: 50px;
+background-color: rgba(29, 31, 32,0.7);
+}
+.img-content{
+height: 200px;
+
+}
+.section-header-span{
+width: 200px;
+height: 6px;
+}
+.mycars,.aboyt,.map{
+background-color:rgba(33, 33, 33,0.5);
+
+
+}
+.vvv{
+display: grid;
+grid-template-columns: repeat(2,800px);
+gap: 100px;
+}
+.item{
+border-radius: 7px 10px 50px 10px;
+}
+.aboyt-item img{
+border-radius: 50%;
+
+
+}
+.saize{
+width: 250px;
+height: 250px;
+}
+.navbar{
+background-color:rgba(187, 184, 184, 0.5);
+
+}
+
+.item-img{
+    height: 300px;
+    position: relative;
+    margin: 10px;
+    
+    
+    }
+    .item-title{
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    width: 90%;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+    }
+    img{
+    border-radius: 20px;
+    
+    }
+    
+    
+    .item-img:hover .item-title{
+    opacity: 1;
+    visibility:visible;
+    transition: all ease-out 0.8s;
+    }
+    .layer{
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    display: none;
+    }
+    .content-img{
+    height: 500px;
+    width: 60%;
+    background-image: url(../img/pexels-geraldjakeabangan-2689421.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-position: center center;
+    }
+    
+    #close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    }
+    .content-img i{
+    cursor: pointer;
+    }
+    .my-name{
+     font-size: 30px;
+      color: yellowgreen;
+    text-transform: capitalize;
+        }
+ .dsc{
+ font-size: 20px;
+ font-weight: 200;
+ color: aquamarine;
+text-transform: uppercase;
+ }
+.col-md-3{
+background-color: rgba(17, 17, 17, 0.4);
+ }
+.tex{
+ word-spacing: 10px;
+        
+ }
+a{
+ cursor: pointer;
+        
+}
